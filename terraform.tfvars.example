@@ -1,0 +1,25 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# VPC Configuration
+vpc_cidr = "10.0.0.0/16"
+
+# Database Configuration
+db_username = "admin"
+db_password = "your-secure-password-here"  # Change this!
+db_name     = "mortgage_db"
+
+# Application Configuration
+app_name    = "mortgage-doc-system"
+environment = "production"
+
+# EC2 Configuration
+instance_type = "t2.micro"
+key_name      = "mortgage-key"
+
+# Tags
+tags = {
+  Project     = "Mortgage Document System"
+  ManagedBy   = "Terraform"
+  Environment = "Production"
+}

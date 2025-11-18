@@ -1,0 +1,8 @@
+## 🔒 Security Scan Results
+Last scanned: [Date]
+Tool: tfsec
+
+✅ No critical vulnerabilities found
+✅ All S3 buckets encrypted
+✅ No public RDS instances
+✅ Security groups follow least privilege

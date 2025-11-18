@@ -1,0 +1,20 @@
+{
+  "Rules": [
+    {
+      "Id": "MoveToGlacierAfter90Days",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": "applications/"
+      },
+      "Transitions": [
+        {
+          "Days": 90,
+          "StorageClass": "GLACIER"
+        }
+      ],
+      "Expiration": {
+        "Days": 2555
+      }
+    }
+  ]
+}
